@@ -1,0 +1,9 @@
+.navbar {
+	@apply fixed top-0 left-0 w-full h-full bg-slate-800/60 backdrop-blur-lg z-10 flex justify-center items-center flex-col gap-5 text-white;
+}
+.navList {
+	@apply text-3xl flex flex-col  gap-5;
+}
+.navContacts {
+	@apply flex sm:flex-row flex-col gap-4 items-center text-3xl mt-10;
+}

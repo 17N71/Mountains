@@ -1,0 +1,22 @@
+.diagram {
+	@apply flex max-[850px]:flex-col flex-row items-center justify-center gap-24 relative;
+}
+.list {
+	@apply flex flex-col gap-12;
+}
+.item {
+	@apply font-medium  after:w-[800px] after:-translate-y-[25px] after:transform after:-translate-x-1/2 after:h-[1px] after:bg-[#45545E] after:absolute  after:left-1/2;
+}
+.heading {
+	@apply text-lg text-[#A7AEB4];
+}
+@media screen and (min-width: 850px) {
+	.item::after {
+		@apply block;
+	}
+}
+@media screen and (max-width: 850px) {
+	.item::after {
+		@apply hidden;
+	}
+}

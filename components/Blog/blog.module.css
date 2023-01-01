@@ -1,0 +1,9 @@
+.blog {
+	@apply flex items-center justify-center w-full flex-col md:px-24 sm:px-12 px-4 py-36;
+}
+.title {
+	@apply text-center text-5xl font-semibold;
+}
+.news {
+	@apply flex lg:flex-row flex-col-reverse lg:gap-[70px] md:gap-12 gap-4 mt-20 max-w-[1366px] mx-auto w-full justify-between items-start;
+}

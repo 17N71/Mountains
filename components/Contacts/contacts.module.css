@@ -1,0 +1,30 @@
+.contacts {
+	@apply py-36 max-[1200px]:flex-col-reverse flex-row  sm:px-14 px-4 md:px-24 flex justify-center max-[1200px]:items-center items-start gap-11 md:gap-[70px];
+}
+.map {
+	@apply object-cover object-center max-w-[600px] w-full max-h-[457px] h-full;
+}
+.title {
+	@apply text-[52px] mb-5;
+}
+.contactInfo {
+	@apply flex flex-col justify-between h-full text-[22px] max-h-[457px];
+}
+.address {
+	@apply not-italic font-medium;
+}
+.socials {
+	@apply flex flex-col items-start gap-5;
+}
+.socials .list {
+	@apply flex gap-7;
+}
+.socials .list li {
+	@apply cursor-pointer;
+}
+.info {
+	@apply flex flex-col gap-5 mt-5;
+}
+.info p:last-of-type {
+	@apply font-medium;
+}

@@ -1,0 +1,6 @@
+.footer {
+	@apply px-24 text-white w-full  mx-auto bg-[#061B28] flex justify-center py-12 items-center;
+}
+.content {
+	@apply max-w-[1366px] mx-auto flex justify-between items-center w-full max-[991px]:flex-col flex-row  gap-5;
+}

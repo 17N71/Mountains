@@ -1,0 +1,15 @@
+.image {
+	@apply object-cover w-[700px] h-[287px] object-bottom;
+}
+.blog {
+	@apply max-w-[700px];
+}
+.date {
+	@apply my-5 flex text-[#626F77] text-sm;
+}
+.article {
+	@apply flex flex-col items-start gap-9;
+}
+.title {
+	@apply text-2xl font-bold;
+}

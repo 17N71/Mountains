@@ -1,0 +1,15 @@
+.everest {
+	@apply bg-[url('/background.jpg')] w-full h-full flex justify-center items-center min-h-screen bg-cover bg-center;
+}
+.title {
+	@apply font-semibold sm:text-8xl text-5xl text-white text-center;
+}
+.context {
+	@apply flex items-center justify-center flex-col gap-12;
+}
+.btn {
+	@apply mt-1 font-medium transition-colors duration-200 ease-in-out tracking-wide border-[2px] text-white text-center border-white px-11 py-4;
+}
+.btn:hover {
+	@apply bg-white text-inherit;
+}

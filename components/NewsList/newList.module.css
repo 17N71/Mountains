@@ -1,0 +1,19 @@
+.list {
+	@apply w-full flex lg:flex-col flex-row lg:flex-nowrap flex-wrap lg:gap-7 md:gap-3 gap-2;
+}
+.item {
+	@apply p-7 border-b border-[#061B28] cursor-pointer lg:w-full lg:max-w-none max-w-[250px] w-full flex flex-col lg:gap-5 gap-2;
+}
+.item.activeItem {
+	@apply bg-[#061b28] text-white;
+}
+.date {
+	@apply text-sm text-[#7E8386];
+}
+.title {
+	@apply text-lg leading-snug;
+}
+.readAllBtn {
+	@apply bg-[#EC5118] flex flex-col items-center justify-center
+   text-center leading-snug w-full py-3 mt-7 text-white;
+}

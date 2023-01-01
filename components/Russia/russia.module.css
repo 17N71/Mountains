@@ -1,0 +1,21 @@
+.russia {
+	@apply relative min-h-screen w-full bg-[url('/russia.jpg')] bg-cover bg-center flex items-center flex-col justify-center;
+}
+.russia::before {
+	content: "";
+	@apply w-full h-full absolute;
+	background: linear-gradient(0deg, rgba(6, 27, 40, 0.92), rgba(6, 27, 40, 0.92));
+}
+.content {
+	@apply z-[1] relative px-64 py-24 text-white flex w-full flex-col justify-center items-center;
+}
+.title {
+	@apply text-center font-semibold text-6xl mb-6;
+}
+.label {
+	@apply text-lg text-center mb-14;
+}
+.seeMoreButton {
+	@apply hover:bg-opacity-100 mt-14 font-medium hover:text-[#061B28];
+	@apply border text-center text-white bg-opacity-0 transition-colors duration-200 bg-white py-4 px-8;
+}

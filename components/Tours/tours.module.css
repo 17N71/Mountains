@@ -1,0 +1,12 @@
+.tours {
+	@apply sm:pl-24 px-4 max-[1366px]:flex-col flex-row flex items-center justify-center max-w-[1366px] w-full mx-auto py-36;
+}
+.article {
+	@apply flex flex-col sm:items-start items-center justify-center gap-14;
+}
+.title {
+	@apply font-semibold sm:text-6xl text-4xl text-center text-[#061B28];
+}
+.paragraph {
+	@apply text-lg sm:mr-32;
+}

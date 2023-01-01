@@ -1,0 +1,24 @@
+.popularTours {
+	@apply flex items-center justify-center flex-col gap-20 max-w-[1366px] w-full px-24 mx-auto pb-32;
+}
+.title {
+	@apply font-semibold text-[52px] text-center;
+}
+.arrows {
+	@apply self-end mt-10;
+}
+.tours {
+	@apply flex flex-col-reverse;
+}
+.arrowPrev {
+	@apply w-9 h-9 p-3 bg-cover   rounded-full bg-center mx-2 bg-[url('/prev.svg')] bg-no-repeat bg-[#E6E8EA];
+}
+.arrowNext {
+	@apply w-9 h-9 p-3 bg-cover   rounded-full bg-center mx-2 bg-[url('/prev.svg')] bg-no-repeat rotate-180 bg-[#E6E8EA];
+}
+.arrowPrev svg path {
+	@apply hidden;
+}
+.arrowNext svg path {
+	@apply hidden;
+}

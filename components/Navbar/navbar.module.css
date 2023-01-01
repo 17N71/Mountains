@@ -1,0 +1,16 @@
+.navbar {
+	@apply flex items-center w-full justify-between ml-24 h-full;
+}
+
+.navList {
+	@apply flex items-center w-full gap-8;
+}
+.navContacts {
+	@apply flex w-full justify-end items-center gap-8;
+}
+.navContacts .navItem:first-of-type {
+	@apply mr-3;
+}
+.navItem {
+	@apply cursor-pointer text-white;
+}

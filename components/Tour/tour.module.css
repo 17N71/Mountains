@@ -1,0 +1,40 @@
+.card {
+	@apply max-w-[370px] min-w-[370px] relative max-h-[326px] min-h-[326px] w-full h-full  z-[2] flex flex-col justify-between pl-[38px] pr-[41px] pt-[41px] pb-[38px];
+}
+.image {
+	@apply object-cover object-center absolute w-full h-full;
+}
+.card::after {
+	content: "";
+	background: linear-gradient(
+		180deg,
+		rgba(249, 249, 250, 0) 0%,
+		rgba(249, 249, 250, 0.9) 100%
+	);
+	@apply absolute w-full h-full top-0 left-0 -z-[1];
+}
+.tours {
+	@apply mx-auto flex max-w-[1366px] justify-center items-center text-center;
+}
+.header {
+	@apply flex justify-between items-center w-full;
+}
+.country {
+	@apply flex items-center gap-2;
+}
+.info {
+	@apply flex flex-col items-start gap-5;
+}
+.moreInfo {
+	@apply flex gap-4;
+}
+.moreInfo span {
+	@apply relative h-[15px] flex items-center justify-center;
+	@apply after:absolute after:-right-2 after:h-full after:w-[1px] after:bg-[#061B28] last-of-type:after:hidden;
+}
+.name {
+	@apply text-[26px] font-medium leading-tight;
+}
+.level {
+	@apply flex gap-2 items-center;
+}
