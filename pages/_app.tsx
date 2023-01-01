@@ -23,7 +23,7 @@ export default function App({ Component, pageProps }: AppProps) {
 	return (
 		<>
 			<Head>
-				<title>MOUNTAIN</title>
+				<title>Mountains</title>
 				<link rel="icon" href="/logo.svg" sizes="any" type="image/svg+xml" />
 			</Head>
 			<style jsx global>{`
