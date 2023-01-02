@@ -4,3 +4,6 @@
 .content {
 	@apply max-w-[1366px] mx-auto flex justify-between items-center w-full max-[991px]:flex-col flex-row  gap-5;
 }
+.toTop {
+	@apply fixed z-[9] cursor-pointer bottom-10 right-5 border border-white bg-[#061B28] w-8 rounded h-8 flex justify-center items-center p-1;
+}
